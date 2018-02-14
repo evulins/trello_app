@@ -1,0 +1,26 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext');
+@import "http://netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome.css";
+
+
+
+html {
+  height: 100%;
+  position: relative
+}
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+h1{
+  margin-bottom:50px;
+}
+h1 {
+  font: 300 3.2em/1.2 'Open Sans', sans-serif;
+  color: white;
+  margin: 0
+}
+
