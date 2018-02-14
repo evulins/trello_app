@@ -1,7 +1,5 @@
 
-// // import 'array.prototype.move';   	// ES6 syntax
-// require('array.prototype.move');	// CommonJS syntax
-
+//Global variables
 var objects = [
 	{name: "Stefka"},
 	{name: "Lola"},
@@ -31,17 +29,19 @@ var fruits = [
 ];
 
 
+//Adds element to the end of the list
 function addElement(name) {
 	objects.push({name: name});
 	return objects;
 }
 
+//Removes element from selected index placy on the list
 function removeElement(index) {
 	objects.splice(index, 1);
 	return objects;
 }
 
-
+//Moves elements from one array positon to another
 function moveElement(fromIndex, toIndex) {
 	var element = objects[fromIndex];
 	objects.splice(fromIndex, 1);
@@ -49,11 +49,13 @@ function moveElement(fromIndex, toIndex) {
     return objects;
 }
 
+//Join lists and creates new one
 function joinLists(list1, list2, list3, list4) {
 	var newList = list1.concat(list2, list3, list4);
 	return newList;
 }
 
+//Sorts list alphabetically
 function sortList(list) {
 	list.sort(function(a, b) {
 	    if(a.name < b.name) return -1;
@@ -64,4 +66,3 @@ function sortList(list) {
 }
 
 
-//test test
