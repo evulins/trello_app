@@ -30,12 +30,6 @@ var fruits = [
 	{name: "kiwi"},
 ];
 
-var cats= [
-	{name: "apple"},
-	{name: "lemon"},
-	{name: "banana"},
-	{name: "kiwi"},
-];
 
 function addElement(name) {
 	objects.push({name: name});
